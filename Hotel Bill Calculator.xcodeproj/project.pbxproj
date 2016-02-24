@@ -14,6 +14,7 @@
 		BAE0E5951C7E25E100CCBF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE0E5931C7E25E100CCBF51 /* LaunchScreen.storyboard */; };
 		BAE0E5A01C7E25E100CCBF51 /* Hotel_Bill_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E59F1C7E25E100CCBF51 /* Hotel_Bill_CalculatorTests.swift */; };
 		BAE0E5AB1C7E25E100CCBF51 /* Hotel_Bill_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E5AA1C7E25E100CCBF51 /* Hotel_Bill_CalculatorUITests.swift */; };
+		BAE0E5BA1C7E37EA00CCBF51 /* HotelCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E5B91C7E37EA00CCBF51 /* HotelCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BAE0E5A61C7E25E100CCBF51 /* Hotel Bill CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hotel Bill CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE0E5AA1C7E25E100CCBF51 /* Hotel_Bill_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel_Bill_CalculatorUITests.swift; sourceTree = "<group>"; };
 		BAE0E5AC1C7E25E100CCBF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE0E5B91C7E37EA00CCBF51 /* HotelCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HotelCalculatorModel.swift; path = Models/HotelCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BAE0E5891C7E25E100CCBF51 /* Hotel Bill Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				BAE0E5B81C7E37CA00CCBF51 /* Models */,
 				BAE0E58A1C7E25E100CCBF51 /* AppDelegate.swift */,
 				BAE0E58C1C7E25E100CCBF51 /* ViewController.swift */,
 				BAE0E58E1C7E25E100CCBF51 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				BAE0E5AC1C7E25E100CCBF51 /* Info.plist */,
 			);
 			path = "Hotel Bill CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		BAE0E5B81C7E37CA00CCBF51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BAE0E5B91C7E37EA00CCBF51 /* HotelCalculatorModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAE0E58D1C7E25E100CCBF51 /* ViewController.swift in Sources */,
+				BAE0E5BA1C7E37EA00CCBF51 /* HotelCalculatorModel.swift in Sources */,
 				BAE0E58B1C7E25E100CCBF51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

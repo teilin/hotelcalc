@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BAE0E5861C7E25E100CCBF51"
+               BuildableName = "Hotel Bill Calculator.app"
+               BlueprintName = "Hotel Bill Calculator"
+               ReferencedContainer = "container:Hotel Bill Calculator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BAE0E59A1C7E25E100CCBF51"
+               BuildableName = "Hotel Bill CalculatorTests.xctest"
+               BlueprintName = "Hotel Bill CalculatorTests"
+               ReferencedContainer = "container:Hotel Bill Calculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BAE0E5A51C7E25E100CCBF51"
+               BuildableName = "Hotel Bill CalculatorUITests.xctest"
+               BlueprintName = "Hotel Bill CalculatorUITests"
+               ReferencedContainer = "container:Hotel Bill Calculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BAE0E5861C7E25E100CCBF51"
+            BuildableName = "Hotel Bill Calculator.app"
+            BlueprintName = "Hotel Bill Calculator"
+            ReferencedContainer = "container:Hotel Bill Calculator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BAE0E5861C7E25E100CCBF51"
+            BuildableName = "Hotel Bill Calculator.app"
+            BlueprintName = "Hotel Bill Calculator"
+            ReferencedContainer = "container:Hotel Bill Calculator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BAE0E5861C7E25E100CCBF51"
+            BuildableName = "Hotel Bill Calculator.app"
+            BlueprintName = "Hotel Bill Calculator"
+            ReferencedContainer = "container:Hotel Bill Calculator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

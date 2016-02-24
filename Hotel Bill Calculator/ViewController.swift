@@ -9,17 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let hotelCalc = HotelCalculatorModel(days: 2, rate: 2)
 
+    @IBOutlet var daysUITextField: UITextField?
+    @IBOutlet var rateUITextField: UITextField?
+    @IBOutlet var totalUILabel: UILabel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func calculateTapped(sender: AnyObject){
+        let days: Int? = Int((daysUITextField?.text)!)
+        let rate: Int? = Int((rateUITextField?.text)!)
+        if days != nil {
+            hotelCalc.numDays = days!
+        }
+        if rate != nil {
+            hotelCalc.rate = rate!
+        }
+        refreshUI()
+    }
+    
+    func refreshUI() {
+        daysUITextField?.text = String(hotelCalc.numDays)
+        rateUITextField?.text = String(hotelCalc.rate)
+        totalUILabel?.text = String(hotelCalc.total)
+    }
 }
 
